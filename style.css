@@ -50,15 +50,30 @@ body {
 .rotated {
 	transform: rotate(0deg);
 	background-color: #e5b14e !important;
-
-
 }
 .container {
 	margin: 0 auto;
 }
-.typewriter p {
-	font-family: 'Raleway', sans-serif;
+h3 {
+	text-align: right;
+	background-image: linear-gradient(transparent 110px, #e5b14e 0px);
+	font-family: 'Oxygen', sans-serif;
+	padding: 50px 0px 5px 0px;
+}
 
+h3::first-letter {
+	font-weight: bold;
+	font-size: 70px;
+}
+#v {
+	font-weight: bold;
+	font-size: 50px;
+}
+span::first-letter {
+	font-size: 60px;
+}
+.typewriter {
+	display: block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -68,7 +83,11 @@ body {
     typing 1s steps(10, end),
     blink-caret .75s step-end infinite;
 }
+#tagline {
+	font-family: 'Oxygen', sans-serif;
+	font-size: 25px;
 
+}
 /* The typing effect */
 @keyframes typing {
   from { width: 0 }
@@ -78,5 +97,33 @@ body {
 /* The typewriter cursor effect */
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: white; }
+}
+#hustle {
+	font-weight: bold;
+	background-color: #e5b14e;
+}
+h2 {
+	font-size: 50px
+}
+
+#pink {
+	font-weight: bold;
+	color: pink;
+
+}
+.btn-flat {
+	font-size: 18px;
+}
+.fab {
+	display: inline-block;
+	padding: 5px;
+	text-align: center;
+}
+a {
+	color: #e5b14e;
+}
+.modal1 {
+	background-image: url("../images/project2.png")
+
 }

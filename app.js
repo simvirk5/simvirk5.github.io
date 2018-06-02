@@ -12,3 +12,12 @@ $("#rotate-left2").mouseover(function(){
 	$(this).toggleClass("rotated");
 })
 
+// $(".about-text").click(function() {
+//     $('html,body').animate({
+//         scrollTop: $(".about").offset().top},
+//         'slow');
+// });
+ $(document).ready(function(){
+    $('.modal').modal();
+  });
+      
