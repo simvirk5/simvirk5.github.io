@@ -18,10 +18,10 @@
 </head>
 <body>
 	
-  				<a class="waves-effect waves-yellow btn-flat projects-text" id="rotate">Projects</a>
-          <a class="waves-effect waves-yellow btn-flat about-text" id="rotate-right">About</a>
-          <a class="waves-effect waves-yellow btn-flat skills-text" id="rotate-l">Skills</a>
-          <a class="waves-effect waves-yellow btn-flat contact-text" id="rotate-left2">Contact</a>
+  				<a class="waves-effect waves-yellow btn-flat projects-text disappear" id="rotate">Projects</a>
+          <a class="waves-effect waves-yellow btn-flat about-text disappear" id="rotate-right">About</a>
+          <a class="waves-effect waves-yellow btn-flat skills-text disappear" id="rotate-l">Skills</a>
+          <a class="waves-effect waves-yellow btn-flat contact-text disappear" id="rotate-left2">Contact</a>
           
       <div class="row">
         <div class="col s12 m8 offset-m2">
@@ -34,40 +34,74 @@
           <div class="icons">
             <a href= "https://github.com/simvirk5"><i class="fab fa-github small"></i></a>
             <a href="https://docs.google.com/document/d/1mmdWiU2hQ6oyYfoQEr5Rqsi5hG24h-qenW-G7k9YXzk/edit"><i class="fab far fa-file-alt small"></i></a>
-            <a href="https://www.linkedin.com/in/simmyvirk/"><i class="fab fa-linkedin small"></i></a>
+            <a href="https://www.linkedin.com/in/simmyvirk/"><i class="fab fa-linkedin small"></i></a><br>  
            </div> 
           </div>
       </div>
-    <div class="container">
-      <div class="projects">
-        <h2>Projects</h2>
-                  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Wobble Box</a>
+      <div class="container">
+           <i class="fas fa-angle-double-down medium arrow_down"></i> 
+         </div>
 
-          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Feeding Forward</a>
-          <a class="waves-effect waves-light btn modal-trigger" href="#modal1">Mentor Space</a>
+      <div class="projects">
+        <div class="child"><h4 class="projects-title">Browse my <span id="recent"> recent projects</span></h4></div>
+         <!-- <i class="material-icons">keyboard_return</i> -->
+
+
+
+
+
+
+
+      <div class="row">
+          <div class ="col s12 s6 projects_row">
+         <a class="waves-effect waves-light btn modal-trigger project1" href="#modal1">Wobble Box</a>
+          <a class="waves-effect waves-light btn modal-trigger project2" href="#modal2">Feeding Forward</a>
+         <a class="waves-effect waves-light btn modal-trigger project3" href="#modal3">Mentor Space</a>
+       </div>
+     </div>
+
 
         <div id="modal1" class="modal">
           <div class="modal-content">
-            <h4>Modal Header</h4>
-            <p>A bunch of text</p>
+           <div class="col s6">
+            <img class="pics" src="project2_profile.png">
+            <img class="pics" src="project2_signup.png">
           </div>
-        <div class="modal-footer">
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Live Site</a>
-          <a href="#!" class="modal-close waves-effect waves-green btn-flat">Github</a>
         </div>
+            <div class="col s12">
+            <p class="proj_content"> <span class ="proj1_title"> WOBBLE BOX</span><br> created Wobble Box as my Unit1 project...<br>
+            <span class ="proj1_title"> Technologies Used</span><br>JavaScript | Phaser | CSS</p>
+        </div>
+      
+        <div class="container modal_footer">
+          <a href="#!" class="modal-close waves-effect waves-grey btn-flat">Live Site</a>
+          <a href="#!" class="modal-close waves-effect waves-grey btn-flat">Github</a>
+      </div>
 
-      </div>
-      </div>
-      <div class="Skills">
-        <h2>Skills</h2>
-      </div>
-      <div class="About">
-        <h2>About</h2>
-      </div>
-      <div class="Contact">
-        <h2>Contact</h2>
-      </div>
     </div>
+         </div>
+<div class="row valign-wrapper">
+    <div class=" col s12 center-align">
+      <div class="skills">
+        <h4 class="skills">Skills</h4>
+      <p class="skills_names">
+      <span class ="skill_list">Languages</span><br>
+      <p> JavaScript | HTML | CSS | Python | SQL | Jquery </p>
+      <span class ="skill_list">Frameworks</span><br>
+      <p> Node.js | Express.js | Django | React | Materialize | Bootstrap </p>
+      <span class ="skill_list">Data</span><br>
+      <p> MongoDB | Mongoose | PostgreSQL </p>
+      <span class ="skill_list">Extras</span><br>
+      <p> JSON | Authentication | Git | Github | RESTful APIs </p>
+    </p>
+
+    </div>
+  </div>
+</div>
+</div>
+
+     
+    <!-- </div> -->
 
   <!-- Modal Structure -->
   

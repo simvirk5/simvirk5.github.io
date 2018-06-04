@@ -20,4 +20,12 @@ $("#rotate-left2").mouseover(function(){
  $(document).ready(function(){
     $('.modal').modal();
   });
-      
+
+ $(window).bind('scroll', function() {
+     if ($(window).scrollTop() > 100) {
+         $('.disappear').hide();
+     }
+     else {
+         $('.disappear').show();
+     }
+});

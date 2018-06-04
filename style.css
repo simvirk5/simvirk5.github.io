@@ -120,10 +120,215 @@ h2 {
 	padding: 5px;
 	text-align: center;
 }
-a {
+a,i {
 	color: #e5b14e;
 }
-.modal1 {
-	background-image: url("../images/project2.png")
+.project1  {
+	background-image: url("project2_mac.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: black;
 
+}
+.project2 {
+	background-image: url("project2_mac.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.project3 {
+	background-image: url("project3_mac.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+h4 {
+	text-align: left;
+	font-family: 'Oxygen', sans-serif;
+	margin: 5rem;
+	padding:15px;
+}
+.child {
+	color: white;
+}
+/*.projects{
+	background-color: #418fde;
+}
+.projects:hover {
+	background-color: #2e353d;
+	width: 100px;
+}*/
+
+.projects {
+position: relative;
+z-index: 9;
+background: #2e353d;
+width:100%;
+height:600px;
+
+	&: hover > h4 {
+		color: pink;
+		}
+}
+
+.projects:hover::before {
+content: "";
+position: absolute;
+z-index: -1;
+top: 0;
+right: 50%;
+bottom: 0;
+left: 0;
+background-color: white	;
+color: pink;
+}
+.projects:hover .child {
+	color: #e5b14e;
+
+}
+
+.far fa-level-down {
+	color: red;
+	font-size: 10px;
+}
+#recent {
+border-bottom-style: inset;
+border-bottom: 3px solid #2e353d;
+border-bottom-height: 10px;
+font-weight: bold;
+	background-image: linear-gradient(transparent 110px, #e5b14e 0px);
+		padding: 50px 250px 5px 0px;
+
+
+
+}
+.fas fa-angle-double-down {
+	display: flex;
+	align-self: flex-end;
+	right: 20px;
+	top: 10px;
+	position: relative;
+}
+li {
+	list-style-type: none;	
+	overflow: hidden;
+  text-align: left;
+  padding-left: 100px;
+  font-size: 25px;
+}
+li:hover::after {
+  display: flex;
+  flex-direction: row;
+}
+.project-link:before, :after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid pink;
+  margin: auto;
+}
+.project-link:hover::after{
+  border-bottom: 1px solid pink;
+    right: 20px;
+      flex: 1 1;
+}
+
+
+img {
+	width: 400px;
+	float: center;
+}
+
+.card .card-image img {
+	width: 50%;
+}
+.card .card-reveal {
+
+}
+.card-image .waves-block .waves-light .small1 {
+float: right;
+width: 20%;
+}
+
+#triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-top: 100px solid red;
+}
+.fa-angle-double-down:before {
+    content: "\f103";
+    margin: 500px;
+    color: !important black;
+}
+.arrow_down {
+	color: black;
+}
+
+.modal-overlay {
+	background: none;
+	position: relative;
+	display: inline-block;
+
+}
+.modal-content {
+	width: 500px;
+		display: inline-block;
+
+}
+.modal-trigger {
+	width: 450px;
+	height: 300px;
+	display: inline-block;
+	color: black;
+
+	
+}
+.project_row {
+	padding: 10px;
+}
+.modal {
+	height: 100%;
+	width: 100%;
+}
+
+.proj_content {
+	float: right;
+	display: inline-block;
+	margin-top:-600px;
+	font-size: 25px;
+	text-align: center;
+	margin-right: 200px;
+}
+.proj1_title {
+	font-size: 30px;
+	font-weight: bold;
+}
+.modal_footer {
+	margin-left: 60%;
+	margin-top: -300px;
+}
+.modal-close {
+	border: 1px solid #2e353d;
+	color: white;
+	background-color: #2e353d;
+}
+.skills {
+	text-align: center;
+    border-bottom-style: inset;
+    /*border-bottom: 2px solid #2e353d;*/
+    border-bottom-height: 100px;
+    font-weight: bold;
+    background-image: linear-gradient(transparent 0px, #e5b14e 0px);
+    padding: 1px 50px 5px 50px;
+    color: #2e353d;
+    /*height: 200px;*/
+
+}
+.row .col {
+padding: 0px;
+}
+.skill_list  {
+	font-size: 20px;
+}
+.skills_name {
+	padding-top: 100px;
 }
