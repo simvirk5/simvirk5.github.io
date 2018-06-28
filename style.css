@@ -1,18 +1,6 @@
 .homepage-div {
-	/*margin-top: -200px;*/
-	/*background-color: pink;*/
-	/*border:	2px solid black;*/
-	/*z-index: 1; */
 	position:relative;
 	z-index: 10;
-	/*background: linear-gradient(white, blue);*/
-	background-image: url("https://media.giphy.com/media/AAqEN58xBRnYk/giphy.gif");
-    /*display: block;*/
-}
-.seattle {
-	/*opacity: 0.9;
-	background-repeat: no-repeat;
-	background-size: cover;*/
 }
 .top1,.top2,.bottom-content{
 	color: white;
@@ -27,12 +15,13 @@
     letter-spacing: 5px;
 }
 .top2 {
-	margin-left: 650px;
+	margin-left: 630px;
 }
 .bottom-content {
-	margin-left: 650px;
-	/*letter-spacing: 0px;*/
+	margin-left: 550px;
+	letter-spacing: 5px;
 	font-size: 20px;
+	margin-top: 200px;
 }
 .fa-angle-double-down {
 	margin-left: 60px;
@@ -56,6 +45,7 @@
 .top-content {
 	margin-top: -20px;
 }
+
 .content-tag {
 	color: white;
 	font-size: 30px;
@@ -72,10 +62,12 @@
 .content-tag .top1 {
 	margin-top: -20px;
 }
-.fa-heart {
+.material-icons {
 	color: #ffc100;
-	    font-size: 20px;
-
+	margin-top: -10px;
+}
+.heart {
+	margin-top: -5px;
 }
 .fa, .fas {
 	font-size: 15px;
@@ -105,21 +97,7 @@
 	height: 100vh;
 }
 
-
-/*.intro-div::after {
-    content: "";
-    /*background: rgba(29, 30, 34, 0.9);
-/*    background: linear-gradient(to right,#213144  0%, #f3f3f3 100%);
-	opacity: 0.5;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 1;
-}
-*/
-.intro-div > * {
+/*.intro-div > * {
     z-index: 10;
 }*/
 
@@ -254,19 +232,7 @@ p::after {
 	text-decoration: lowercase;
 
 }
-p {
-	/*font-family: 'Sacramento', cursive;
-	display: inline-block;*/
 
-}
-
-/*.border {
-	border-bottom: 20px solid pink;
-    margin-top: -20px;
-    margin-left: 260px;
-    margin-right: 260px;
-    margin-bottom: -40px;
-}*/
 #border{
   background-image: linear-gradient(120deg, #fd6b6d 0%, #e5b14e 100%);
   background-repeat: no-repeat;
@@ -333,12 +299,7 @@ p {
 	font-weight: bold;
 	color: pink;
 }
-/*.icons-row {
-	background-color: black;
-}*/
-/*.row .col.s9 {
-	margin-left: 55px;
-}*/
+
 
 .icons {
 	background-color: grey;
@@ -367,9 +328,6 @@ p {
 	animation: pulse 2500ms;
 	color: #e5b14e;
 	/*background-color: pink;*/
-	
-
-
 }
 
 .icons a i{
@@ -405,10 +363,8 @@ p {
 	letter-spacing: 1px;
 	z-index: 10;
 	position: relative;
-
-
-
 }
+
 .underline {
 	border: 10px solid #ffc100;
 	animation: pulse 1500ms;
@@ -417,18 +373,17 @@ p {
     margin-left: 75vw;
     z-index: 10;
 	position: relative;
-
 }
-
 
 .dropdown-content {
 	background-color: #f7f7f7;
 	color: grey;
-
 }
+
 .close-icon {
 	text-align: right;
 }
+
 .hello {
 	color: white;
 }
@@ -469,8 +424,6 @@ element.style {
 .profile-img {
 	margin-left: 110px;
 	box-shadow: 30px 30px white;
-
-
 }
 
 .name-underline {
@@ -515,8 +468,6 @@ element.style {
     font-size: 18px;
     line-height: 1.4;
     font-family: 'Lato', sans-serif;
-
-
 }
 
 .bio-underline {
@@ -829,10 +780,8 @@ li {
 	background-color: #ffc100;
 	margin-top: 55px;
 	font-family: 'Lato', sans-serif;
-
-	  text-shadow:
+	text-shadow:
        1px 1px 0 #de605e;
-	/*background-image: url("https://img.clipartxtras.com/b376d5509d4cbcbc236b77c116d1530a_best-25-aesthetic-art-ideas-on-pinterest-artist-aesthetic-art-minimalist-moon-drawing_400-333.jpeg");*/
 }
 .footer-copyright a {
 	color: #de605e;
