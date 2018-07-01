@@ -40,13 +40,12 @@
       <a class='dropdown-button btn' data-beloworigin="true" href='#' data-activates='dropdown1' class='hello'>hello</a>
       <div class="underline"></div>
       <ul id='dropdown1' class='dropdown-content'>
-        <div id="projects" class="section-scrollspy">
+
           <li><a href="#projects">projects</a></li>
-        </div>
           <li><a href="#skills">skills</a></li>
-          <li><a href="#about">contact</a></li>
+          <li><a href="#contact">contact</a></li>
           <li class="divider"></li>
-          <li><a href="#contact">resume</a></li>
+          <li><a href="#resume">resume</a></li>
         </ul>
     </div>
     <div class="col s12 intro-div">
@@ -58,7 +57,7 @@
             </div></br>
           </div>
           <div class="bottom-content">
-             <i class="material-icons">arrow_downward</i>
+             <i class="material-icons">arrow_downward</i><a href="#about">
             Learn more about me 
             <i class="material-icons" class="jump">arrow_downward</i>
           </div>
@@ -68,7 +67,7 @@
 
 
 <!-- projects section  -->
-  <div class=" row projects-div">
+  <div class=" row projects-div scrollspy" id="projects">
     <div class="col s12 project-header">
     <hr>
       <h3><span class="recent">Projects</h3><div class="underline2"></div>    
@@ -76,7 +75,7 @@
 <div class="container">
     <div class="row project1-div">
       <div class="col s6 project2-img">
-        <img src="project2_mac.png" class="projects-imgs">
+        <img src="project4_mac.png" class="projects-imgs">
       </div>
       <div class="col s6 description descrip-1">
         <h4 class="project-name">Feeding Forward</h4>
@@ -93,7 +92,7 @@
     </div>
     <div class="row project2-div">
       <div class="col s6 project4-img">
-        <img src ="project4_mac.png" class='projects-imgs'>
+        <img src ="project2_mac.png" class='projects-imgs'>
       </div>
       <div class="col s6 description descrip-1">
         <h4 class="project-name">MentorSpace</h4>
@@ -130,12 +129,11 @@
 
 
 <!-- skilss section -->
-
       <div class="parallax-container">
     <div class="overlay">
       <div class="parallax"><img src="https://images.unsplash.com/photo-1504288145234-919e7bbc6d19?ixlib=rb-0.3.5&s=d4c6e5eb2e1fcf491b2f1477236c8977&auto=format&fit=crop&w=1950&q=80"></div>
     </div>
-    
+    <div class="scrollspy" id="skills">
   <div class="row skills-div">
     <div class="col s12 skills-header">
       <h3 class="skills-tag">Skills</h3>
@@ -176,26 +174,28 @@
     </div>
   </div>
 </div>
+</div>
 
 <!-- about me section -->
-
-<div class="row img-row">
-  <div class="content">
-    <div class="col s4 profile-img-div">
-      <img src="images/profilepic.jpg" class="profile-img">
-      <div class="whatever"></div>
-    </div>
-    <div class="col s8 bio-div">
-      <h3 class="name-span">Simmy<div class="name-underline"></div><br><span class-"bold-2>Virk</span></h3>
-      
-        <div class="container">
-            <h6 class="bio">I'm inspired by human behavior and curiosity, and passionate about solving problems through digital storytelling that improves people's lives. I am a fullstack developer that creates <span id='hustle'>projects with purpose </span>and uses technology to bring beautiful design and clean code to life. <span id="email-me">I'm commited to <span class="more-bold">UI Design</span> and <span class="more-bold">Front-End Development</span>, <span class="more-bold">Humanitarian Causes</span> and <span class="more-bold">Empathy</span>. <div class="bio-underline"></div></span>
-            </h6>
-          <div class="move-up">
-            <span id="resume">Resume</span><br><br>
-            <span id="resume"><a href="https://www.linkedin.com/in/simmyvirk/">LinkedIn</a></span>
+<div class="scrollspy" id="about">
+  <div class="row img-row">
+    <div class="content">
+      <div class="col s4 profile-img-div">
+        <img src="images/profilepic.jpg" class="profile-img">
+        <div class="whatever"></div>
+      </div>
+      <div class="col s8 bio-div">
+        <h3 class="name-span">Simmy<div class="name-underline"></div><br><span class-"bold-2>Virk</span></h3>
+        
+          <div class="container">
+              <h6 class="bio">I'm inspired by human behavior and curiosity, and passionate about solving problems through digital storytelling that improves people's lives. I am a fullstack developer that creates <span id='hustle'>projects with purpose </span>and uses technology to bring beautiful design and clean code to life. <span id="email-me">I'm commited to <span class="more-bold">UI Design</span> and <span class="more-bold">Front-End Development</span>, <span class="more-bold">Humanitarian Causes</span> and <span class="more-bold">Empathy</span>. <div class="bio-underline"></div></span>
+              </h6>
+            <div class="move-up">
+              <span id="resume">Resume</span><br><br>
+              <span id="resume"><a href="https://www.linkedin.com/in/simmyvirk/">LinkedIn</a></span>
+            </div>
           </div>
-        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -206,6 +206,7 @@
 </div>
 
 <!-- contact section  -->
+<div class="scrollspy" id="contact">
   <div class="row contact-row">
     <div class="col s12 row-color">
       <h3 class="contact-tag">Let's work together!</h3><div class="underline3"></div>
@@ -214,6 +215,7 @@
     </div>
     </div>
   </div>
+</div>
 
 
   <div class="row">

@@ -22,6 +22,10 @@
 	letter-spacing: 5px;
 	font-size: 20px;
 	margin-top: 200px;
+	color: white;
+}
+.bottom-content a {
+	color: white;
 }
 .fa-angle-double-down {
 	margin-left: 60px;
