@@ -13,9 +13,19 @@
     margin-left: 550px;
     font-size: 30px;
     letter-spacing: 5px;
+    font-weight: 500;
 }
 .top2 {
 	margin-left: 630px;
+}
+.shadow {
+	text-shadow:
+       1px 1px 0 #ffc100;
+
+
+}
+.yellow-me {
+	color: #ffc100;
 }
 .bottom-content {
 	margin-left: 550px;
@@ -377,6 +387,16 @@ p::after {
     margin-left: 75vw;
     z-index: 10;
 	position: relative;
+}
+.okay {
+	display: inline-block;
+	animation: pulse 1500ms;
+    animation-iteration-count: infinite;
+    position: relative;
+    font-size: 40px;
+    color: #ffc100;
+
+
 }
 
 .dropdown-content {
