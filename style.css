@@ -25,6 +25,10 @@
 .yellow-me {
 	color: #ffc100;
 }
+.role {
+	font-size: 15px;
+
+}
 .bottom-content {
 	margin-left: 500px;
 	letter-spacing: 5px;
@@ -561,6 +565,21 @@ iframe {
 	color:black;
 	text-align: left;
 }
+.wireframes-div {
+	margin-top: 200px;
+	text-align: center;
+}
+.wireframes-txt {
+	text-align: center;
+	    margin-left: -220px;
+
+}
+/*.center {
+	text-align: center;
+}*/
+/*.wireframes-div {
+	margin-left: 50px;
+}*/
 .titles {
 	color: #ffc100;
 	text-transform: uppercase;
@@ -568,6 +587,10 @@ iframe {
 .project-overview {
 	margin-top: -50px;
 	font-size: 25px;
+}
+.overview {
+		font-size: 25px;
+
 }
 .ux-info {
 	margin-top: -90px;
@@ -733,6 +756,7 @@ a{
 
 .row-color {
  	background-color: #ffc100; 
+ 	margin-top: -20px;
 }
 
 .underline2 {
@@ -821,7 +845,7 @@ li {
 	display: block; 
 	width: 10%; 
 	border-bottom: 1px solid white; 
-	margin-left: 200px;
+	margin-left: 150px;
 }
 .skill-list2:after {
 	content: "";
@@ -863,9 +887,9 @@ li {
 .footer-copyright {
 	text-align: center;
 	height: 30px;
-	color: white;
-	background-color: #ffc100;
-	margin-top: 55px;
+	/*color: white;*/
+/*	background-color: #ffc100;
+*/	margin-top: 55px;
 	font-family: 'Lato', sans-serif;
 	text-shadow:
        1px 1px 0 #de605e;
