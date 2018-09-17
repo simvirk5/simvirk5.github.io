@@ -564,6 +564,7 @@ iframe {
 .same {
 	color:black;
 	text-align: left;
+	line-height: 1.3;
 }
 .wireframes-div {
 	margin-top: 200px;
@@ -881,11 +882,13 @@ li {
        1px 1px 0 black;
 
 }
-.bold {
+.bold,.bolder {
 	font-weight: bold;
 }
+
 .footer-copyright {
 	text-align: center;
+	line-height: 1.3;
 	height: 30px;
 	/*color: white;*/
 /*	background-color: #ffc100;
