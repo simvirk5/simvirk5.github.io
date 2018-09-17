@@ -27,3 +27,19 @@
 
 $('.scrollspy').scrollSpy();
 
+  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+    var instances = M.Modal.close(elems, options);
+  });
+
+
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.modal').modal({dismissible: false, closeIcon: true});
+    instance.close();
+
+  });
+     
